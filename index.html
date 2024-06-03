@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-size:20px}
+body,h1,h2,h3,h4,h5,h6 {font-family:sans-serif}
+.w3-bar,h1,button {font-family:sans-serif}
+.fa-tree, .fa-trash {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-grey w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-light-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">More Coming Soon</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Coming Soon</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-light-grey w3-center" style="padding:70px 16px 30px 16px">
+  <img src="wide-title-1000.png" class="w3-image" alt="Jimmy Rigged Services LLC">
+  <h3>Contact: <a href="mailto:jimmyriggedservices@gmail.com">jimmyriggedservices@gmail.com</a></h3>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Consulting Services</h1>
+      <p class="w3-padding-32">
+        Jimmy has many years experience in Construction and Solid Waste management. He is very smart and super good
+        at garbage and putting stuff together. He can help you put stuff together....or put it in a hole in the ground.
+      </p>
+    </div>
+    
+    <div class="w3-third w3-center">
+      <i class="w3-text-grey">&NonBreakingSpace;</i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third ">
+      <i class="w3-text-grey w3-margin-right">&NonBreakingSpace;</i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Lumber and Molding Services</h1>
+      <p class="w3-padding-32">
+        Jimmy has extensive experience milling lumber and has recently started producing moldings and 
+        other dimensional pieces. He can create many standard moldings. Custom moldings are also avaialble
+        but require more lead-time. Quarter-sawing is also available. You provide the logs and Jimmy makes
+        usuable lumber, either as rough-sewn pieces or as ripped and planed lumber ready for your next project.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
